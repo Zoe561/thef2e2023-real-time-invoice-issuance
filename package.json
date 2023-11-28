@@ -4,8 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href /thef2e2023-real-time-invoice-issuance/ --configuration production",
     "watch": "ng build --watch --configuration development",
+    "deploy": "npx angular-cli-ghpages --dir=dist/thef2e2023-real-time-invoice-issuance",
     "test": "ng test"
   },
   "private": true,
@@ -36,6 +37,7 @@
     "@types/d3": "^7.4.3",
     "@types/jasmine": "~4.3.0",
     "@types/topojson-client": "^3.1.4",
+    "angular-cli-ghpages": "^0.6.2",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
