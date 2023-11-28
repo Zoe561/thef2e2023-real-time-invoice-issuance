@@ -3,9 +3,10 @@
 ## 作品說明
 
 The F2E 2023 mission2 主題，利用網頁技術將歷年總統大選的結果呈現於地圖上。
-The F2E 2023 官網： <https://2023.thef2e.com/>
-設計師： jhen → <https://2023.thef2e.com/users/12061579704041679194>
-網頁工程師：Zoe
+
+- The F2E 2023 官網： <https://2023.thef2e.com/>
+- 設計師： jhen → <https://2023.thef2e.com/users/12061579704041679194>
+- 網頁工程師：Zoe
 
 ## 系統說明
 
