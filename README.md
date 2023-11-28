@@ -1,27 +1,46 @@
-# Thef2e2023RealTimeInvoiceIssuance
+# 🚧 歷年總統開票地圖 施工中 🚧
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+## 作品說明
 
-## Development server
+The F2E 2023 mission2 主題，利用網頁技術將歷年總統大選的結果呈現於地圖上。
+The F2E 2023 官網： <https://2023.thef2e.com/>
+設計師： jhen → <https://2023.thef2e.com/users/12061579704041679194>
+網頁工程師：Zoe
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 系統說明
 
-## Code scaffolding
+使用 Angular 16 開發，專案運行方式
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. `npm install`
+2. `npm start`
 
-## Build
+## 資料夾說明
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+└─src
+    ├─app
+    │  ├─feature
+    │  │  └─taiwan-map
+    │  └─page
+    │      ├─home
+    │      └─information
+    ├─assets
+    │  ├─image
+    │  ├─json
+    │  └─vote
+    
+```
 
-## Running unit tests
+## 使用技術
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Angular Cli
+D3.js
+Bootstrap
+ng-bootstrap
+rxjs
+topojson-client
 
-## Running end-to-end tests
+## 第三方服務
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+GitHub Pages
+台灣GEOJson : <https://github.com/g0v/twgeojson.git>

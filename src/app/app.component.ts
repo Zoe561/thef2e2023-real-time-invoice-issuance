@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'thef2e2023-real-time-invoice-Issuance';
+export class AppComponent implements OnInit {
+  title = '總統大選歷史開票平台';
+
+  ngOnInit(): void {
+
+  }
+
 }
